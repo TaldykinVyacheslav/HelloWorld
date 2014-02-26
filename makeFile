@@ -1,7 +1,6 @@
-
 all:
-	gcc -c main.c main.o
-	gcc main.o -o main
+	$(CC) -c main.c main.o
+	$(CC) main.o -o main
 
 clean:
 	rm -f *.o main
