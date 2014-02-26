@@ -1,0 +1,8 @@
+TARGET=HelloWorld
+
+all:
+	gcc -c main.c main.o
+	gcc main.o -o HelloWorld
+
+clean:
+	rm -f *.o HelloWorld
