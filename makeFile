@@ -3,4 +3,4 @@ all:
 	$(CC) main.o -o main
 
 clean:
-	rm -f *.o main
+	rm -f *.o
