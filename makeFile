@@ -1,6 +1,6 @@
 all:
-	$(CC) -c main.c main.o
-	$(CC) main.o -o main
+	$(CROSS_COMPILE)$(CC) -c main.c main.o
+	$(CROSS_COMPILE)$(CC) main.o -o main
 
 clean:
 	rm -f *.o
